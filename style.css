@@ -23,7 +23,7 @@ body {
     height: 100vh;
     overflow: hidden;
     display: grid;
-    grid-template: clamp(175px, 20vh, 250px) clamp(500px, 80vh, 1250px) / clamp(250px, 20vw, 350px) clamp(1000px, 80vw, 1400px);
+    grid-template: clamp(150px, 15vh, 250px) clamp(600px, 85vh, 1250px) / clamp(250px, 20vw, 350px) clamp(1000px, 80vw, 1400px);
 }
 
 svg {
@@ -83,7 +83,7 @@ img {
 }
 
 #search_bar {
-    margin: 20px 35px;
+    margin: 25px 35px;
 }
 
 #search_bar svg {
@@ -95,7 +95,7 @@ img {
     border: none;
     background-color: rgb(195, 195, 195);
     color: #1A3A2A;
-    width: 500px;
+    width: 600px;
     height: 35px;
     border-radius: 10px;
     padding-left: 6px;
@@ -111,7 +111,7 @@ img {
 
 #profilo_piccolo {
     position: absolute;
-    top: 4px;
+    top: 10px;
     right: 50px;
     font-weight: bold;
 }
@@ -129,23 +129,23 @@ img {
 }
 
 #profilo {
-    margin: -40px 35px;
+    margin: -50px 35px;
     font-weight: bold;
 }
 
 #profilo img {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     position: relative;
-    top: 46px;
+    top: 40px;
 }
 
 #profilo p {
-    margin-left: 79px;
+    margin-left: 65px;
 }
 
 #piccolo {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .button {
@@ -184,6 +184,7 @@ img {
 }
 
 #container h2 {
+    font-size: 0.9rem;
     margin: 15px 20px;
 }
 
@@ -228,16 +229,17 @@ img {
     border: 1px solid red
 }
 
-#notizie h2{
+#notizie h2 {
     margin-top: 15px;
+    font-size: 0.9rem;
 }
 
 #annunci div {
-    width: 92%;
+    width: 95%;
     height: 275px;
     padding: 15px;
     background-color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #annunci div p {
@@ -264,6 +266,50 @@ img {
     font-weight: bold;
 }
 
-#trend {
-    
+#trend div {
+    width: 95%;
+    height: 275px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#trend div p {
+    position: relative;
+}
+
+#trend div p:first-of-type {
+    top: 15px;
+}
+
+#trend div p:nth-of-type(2) {
+    bottom: 15px;
+}
+
+#trend div p:nth-of-type(3) {
+    bottom: 40px;
+}
+
+#trend div p:last-of-type {
+    bottom: 70px;
+}
+
+#trend div p img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 25px;
+}
+
+#trend .grassetto {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 25px; 
+    left: 25px;
+}
+
+.testo {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 35px; 
+    left: 75px;
 }

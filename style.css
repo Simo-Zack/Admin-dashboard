@@ -176,11 +176,7 @@ img {
     color: black;
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
-    grid-template-columns: clamp(710px, 55vw, 1050px) clamp(300px, 25vw, 400px);
-}
-
-#container {
-    border: 1px solid blue;
+    grid-template-columns: clamp(700px, 55vw, 1000px) clamp(300px, 25vw, 400px);
 }
 
 #container h2 {
@@ -223,10 +219,6 @@ img {
 .azione svg {
     width: 25px;
     margin-left: 10px;
-}
-
-#notizie {
-    border: 1px solid red
 }
 
 #notizie h2 {
